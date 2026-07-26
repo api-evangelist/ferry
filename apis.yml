@@ -1,7 +1,30 @@
 aid: ferry
 name: Ferry
-description: Ferry is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ferry (operated by ThirdRails Ltd) is a London-based development and data
+  integration platform for the industrial edge, founded in 2023 by Dominic Aits
+  and Ethan Waldie. Ferry lets operations, IT and data teams in operationally
+  intensive industries — manufacturing, energy, oil & gas and pharmaceuticals —
+  integrate data from factory floors and frontline operations directly into
+  their IT systems, and build, deploy and monitor custom edge applications and
+  data pipelines on industrial hardware. It ships as a modular Manufacturing
+  Execution System (MES) with agentic AI for production scheduling, supply chain
+  operations, troubleshooting, real-time process guidance and continuous
+  improvement, deploying via AWS IoT Greengrass in the customer's own AWS account
+  or Azure IoT Edge in their Azure account. Ferry is backed by Seedcamp,
+  Asymmetric Capital Partners and Target Global, and is SOC 2 Type II certified.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.deployferry.io/favicon.svg
 url: https://raw.githubusercontent.com/api-evangelist/ferry/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Industrial AI
+- Manufacturing
+- Manufacturing Execution System
+- Edge Computing
+- Industrial IoT
+- Data Integration
+- Agentic AI
+- AWS IoT Greengrass
+- Azure IoT Edge
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,46 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/ferry-trust-center.yml
 - type: Website
-  url: http://deployferry.io
+  url: https://www.deployferry.io/
+- type: DeveloperPortal
+  url: https://docs.deployferry.io/
+- type: Documentation
+  url: https://docs.deployferry.io/
+- type: GettingStarted
+  url: https://docs.deployferry.io/getting-started
+- type: GitHubOrganization
+  url: https://github.com/deployferry-io
+- type: Blog
+  url: https://www.deployferry.io/blog
+- type: Support
+  url: https://my41c956te5.typeform.com/to/kxh2yGyW
+- type: TermsOfService
+  url: https://www.deployferry.io/terms
+- type: PrivacyPolicy
+  url: https://www.deployferry.io/privacy
+- type: TrustCenter
+  url: https://app.bastion.tech/trust-center/d63fae56-11f8-4d0d-9a1a-f68210c9e57d
+- type: Compliance
+  url: https://app.bastion.tech/trust-center/d63fae56-11f8-4d0d-9a1a-f68210c9e57d
+- type: StatusPage
+  url: https://app.bastion.tech/status/12612563-d5c2-4909-8df9-c4b6df89c49a
+- type: Careers
+  url: https://www.deployferry.io/careers
+- type: Packages
+  url: packages/ferry-packages.yml
+- type: DomainSecurity
+  url: security/ferry-domain-security.yml
+- type: Conformance
+  url: conformance/ferry-conformance.yml
+- type: Lifecycle
+  url: lifecycle/ferry-lifecycle.yml
+- type: LLMsTxt
+  url: llms/ferry-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

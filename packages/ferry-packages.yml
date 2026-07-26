@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/deployferry-io
+note: >-
+  Ferry publishes no public API client SDK. The deployferry-io GitHub org ships
+  edge deployment / data tooling. All three repos are archived (read-only as of
+  2025). postgrest-py is a fork of the community PostgREST Python client, not an
+  original first-party Ferry SDK, so it is not marked official.
+packages:
+- language: python
+  registry: github
+  name: ferry-installer
+  url: https://github.com/deployferry-io/ferry-installer
+  install: git clone https://github.com/deployferry-io/ferry-installer
+  official: true
+  kind: installer
+  license: AGPL-3.0
+  archived: true
+  description: >-
+    Python/Shell installer that deploys Ferry edge software into a customer's
+    own AWS (IoT Greengrass) or Azure (IoT Edge) account.
+- language: python
+  registry: github
+  name: ferry-pyflink
+  url: https://github.com/deployferry-io/ferry-pyflink
+  install: docker pull ghcr.io/deployferry-io/ferry-pyflink
+  official: true
+  kind: container-image
+  license: MIT
+  archived: true
+  description: Public PyFlink base image used by Ferry edge data pipelines.
+- language: python
+  registry: github
+  name: postgrest-py
+  url: https://github.com/deployferry-io/postgrest-py
+  install: pip install postgrest
+  official: false
+  kind: fork
+  license: MIT
+  archived: true
+  description: >-
+    Fork of the community PostgREST client for Python (ORM interface to
+    PostgREST). Not an original Ferry library.

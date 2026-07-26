@@ -1,0 +1,29 @@
+# Ferry
+
+> Ferry (operated by ThirdRails Ltd) is a London-based development and data integration platform for the industrial edge. It lets operations, IT and data teams in manufacturing, energy, oil & gas and pharmaceuticals integrate factory-floor and frontline data into their IT systems, and build, deploy and monitor custom edge applications and data pipelines on industrial hardware. Ferry ships as a modular Manufacturing Execution System (MES) with agentic AI, deploying via AWS IoT Greengrass or Azure IoT Edge in the customer's own cloud account. Backed by Seedcamp, Asymmetric Capital Partners and Target Global; SOC 2 Type II certified.
+
+## Company
+- [Ferry website](https://www.deployferry.io/): Product overview and industrial AI use cases.
+- [Blog](https://www.deployferry.io/blog): Notes on industrial software and manufacturing operations.
+- [Careers](https://www.deployferry.io/careers): Open roles.
+- [Security](https://www.deployferry.io/security): Security posture (SOC 2 Type II, ISO 27001 hosting).
+
+## Docs
+- [Documentation](https://docs.deployferry.io/): Developer docs for deploying and operating Ferry on the industrial edge.
+- [Getting Started](https://docs.deployferry.io/getting-started): Initial setup guidance.
+- [Guides](https://docs.deployferry.io/guides): Workspaces, deployments, components.
+- [Use Cases & Walkthroughs](https://docs.deployferry.io/): Application scenarios and step-by-step tutorials.
+
+## Code
+- [GitHub organization](https://github.com/deployferry-io): Public repos (archived).
+- [ferry-installer](https://github.com/deployferry-io/ferry-installer): Installer that deploys Ferry edge software into a customer's AWS (IoT Greengrass) or Azure (IoT Edge) account.
+- [ferry-pyflink](https://github.com/deployferry-io/ferry-pyflink): Public PyFlink base image for Ferry edge data pipelines.
+
+## Trust
+- [Trust Centre](https://app.bastion.tech/trust-center/d63fae56-11f8-4d0d-9a1a-f68210c9e57d): Compliance posture and certifications.
+- [Status Page](https://app.bastion.tech/status/12612563-d5c2-4909-8df9-c4b6df89c49a): Service status.
+- [Privacy Policy](https://www.deployferry.io/privacy)
+- [Terms of Service](https://www.deployferry.io/terms)
+
+## Contact
+- [Book a demo / contact](https://my41c956te5.typeform.com/to/kxh2yGyW)

@@ -1,0 +1,11 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.deployferry.io/security
+note: >-
+  Ferry exposes no public versioned API, so there is no published versioning or
+  deprecation policy to capture. The provider does operate a hosted status page.
+versioning: null
+deprecation: null
+sla: null
+status_page: https://app.bastion.tech/status/12612563-d5c2-4909-8df9-c4b6df89c49a
+deprecated_operations: []
